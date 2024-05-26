@@ -1,9 +1,13 @@
 Hello @team2-trainees
 
 Aina Masood
+<<<<<<< HEAD
 Aleks (Aleksandr Buniatov)
 Bhumika
 Ciprian
+Aleks
+Bhumika Mallikarjun 
+Ciprian Pirciu
 Dennis
 Halyna Bondar - Hello world!
 Lu - the shortest name!!
