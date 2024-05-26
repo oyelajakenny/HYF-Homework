@@ -1,29 +1,24 @@
 Hello @team2-trainees
 
 Aina Masood
-<<<<<<< HEAD
 Aleks (Aleksandr Buniatov)
 Bhumika
 Ciprian
-Aleks
-Bhumika Mallikarjun 
-Ciprian Pirciu
-Dennis
+Dennis - sup, people
 Halyna Bondar - Hello world!
 Lu - the shortest name!!
 Hanna Vorontsova hi team29
+<<<<<<< HEAD
 Lu
 Noah
 Nusrath Jahan hello Hack Team29
+=======
+Nusrath Jahan hello Hack
+>>>>>>> 40387e42efed47c5ae444603104e3304d17a2bf1
 Oyelaja Hussein - I am hussein | HackYourFuture DK
 Meron Ghebreyesus Kifleyesus Hello my name is Meron
 Noah - Huh?
-<<<<<<< HEAD
 Nusrath Jahan hello everyone
-Oyelaja Hussein
-=======
-Nusrath Jahan hello
->>>>>>> 99c8de19838f3e14121a2f78f61f6411dd93928f
 Rajesh Kumar Bhatt
 My name is Sathi Chowdhury
 Yuliia Kotenko how are you doing guys?
