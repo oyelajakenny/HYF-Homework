@@ -4,21 +4,6 @@ Aina Masood
 Aleks (Aleksandr Buniatov)
 Bhumika
 Ciprian
-<<<<<<< HEAD
-Dennis
-Halyna Bondar
-Hanna Vorontsova
-Lu
-Meron Ghebreyesus Kifleyesus
-Noah
-Nusrath Jahan
-Oyelaja Hussein
-Rajesh Kumar Bhatt-- Hello World!!!
-Sathi Chowdhury
-Yuliia Kotenko
-
-Rohit Sharma
-=======
 Dennis - sup, people
 Halyna Bondar - Hello world!
 Lu - the shortest name!!
@@ -33,6 +18,5 @@ My name is Sathi Chowdhury
 Yuliia Kotenko how are you doing guys?
 
 Rohit Sharma - hello again!
->>>>>>> f9e8e77dc915ebfdfd89d179e09060bc6e08937c
 
 hello world
