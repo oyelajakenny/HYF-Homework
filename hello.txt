@@ -4,8 +4,11 @@ Aina Masood
 Aleks (Aleksandr Buniatov)
 Bhumika
 Ciprian
+<<<<<<< HEAD
 Dennis - sup, people
 Halyna Bondar
+Dennis
+Halyna Bondar - Hello world!
 Lu - the shortest name!!
 Hanna Vorontsova hi team29
 Meron Ghebreyesus Kifleyesus Hello my name is Meron
