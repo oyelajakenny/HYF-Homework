@@ -15,9 +15,5 @@ Oyelaja Hussein
 Rajesh Kumar Bhatt
 Sathi Chowdhury
 Yuliia Kotenko
-<<<<<<< HEAD
-AKorede
-=======
 
 Rohit Sharma
->>>>>>> 955e6b5928935a2771e4139be4e0c2f001407ad8
