@@ -1,0 +1,53 @@
+1. Albania
+2. Andorra
+3. Armenia (partly in Asia)
+4. Austria
+5. Azerbaijan (partly in Asia)
+6. Belarus
+7. Belgium
+8. Bosnia and Herzegovina
+9. Bulgaria
+10. Croatia
+11. Cyprus (geographically in Asia, politically in Europe)
+12. Czech Republic (Czechia)
+13. Denmark
+14. Estonia
+15. Finland
+16. France
+17. Georgia (partly in Asia)
+18. Germany
+19. Greece
+20. Hungary
+21. Iceland
+22. Ireland
+23. Italy
+24. Kazakhstan (partly in Asia, generally associated with Central Asia)
+25. Kosovo (partially recognized)
+26. Latvia
+27. Liechtenstein
+28. Lithuania
+29. Luxembourg
+30. Malta
+31. Moldova
+32. Monaco
+33. Montenegro
+34. Netherlands
+35. North Macedonia
+36. Norway
+37. Poland
+38. Portugal
+39. Romania
+40. Russia (partly in Asia)
+41. San Marino
+42. Serbia
+43. Slovakia
+44. Slovenia
+45. Spain
+46. Sweden
+47. Switzerland
+48. Turkey (partly in Asia)
+49. Ukraine
+50. United Kingdom
+51. Vatican City (Holy See)
+
+These countries are typically considered part of Europe, though some have transcontinental territories.
