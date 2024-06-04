@@ -3,22 +3,22 @@ The garden size is 100m2. The house costs 2.500.000.*/
 
 //Peter's House Cost
 
-const houseWidth = 8;
-const houseDepth = 10;
-const houseHeight = 10;
-const gardenSizeInM2 = 100;
-const houseCost = 2500000;
+const peterHouseWidth = 8;
+const peterHouseDepth = 10;
+const peterHouseHeight = 10;
+const peterGardenSizeInM2 = 100;
+const realHouseCost = 2500000;
 
-let volumeInMeters = houseWidth * houseDepth * houseHeight;
-let housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
+const volumeInMeters = houseWidth * houseDepth * houseHeight;
+const estimatedPrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
 
-if (housePrice > houseCost) {
+if (estimatedPrice > realHouseCost) {
   console.log(
-    `The house is too expensive! The price is ${housePrice - houseCost} more than the house cost of ${houseCost}.`
+    `The house is too expensive! The price is ${estimatedPrice - realHouseCost} more than the house cost of ${realHouseCost}.`
   );
 }else {
   console.log(
-    `The house is cheap! The price is ${houseCost - housePrice} less than the house cost ${houseCost}.`
+    `The house is cheap! The price is ${realHouseCost - estimatedPrice} less than the house cost ${realHouseCost}.`
   );
 }
 
