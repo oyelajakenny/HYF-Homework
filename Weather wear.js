@@ -17,9 +17,8 @@ function todaysWeather(temperature){
     if (temperature <= 20){
         return "Wear a long sleeve shirt and a jean.";
     }
-    else{
-        return "Wear a t-shirt and shorts.";
-    }
+    
+    return "Wear a t-shirt and shorts.";
 }
 
 const clothesToWear = todaysWeather(10);
