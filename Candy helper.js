@@ -1,5 +1,5 @@
 const boughtCandyPrices =[];
-const candyPrices = {
+const CANDY_PRICE = {
     "sweet": 0.5,
     "chocolate": 0.7,
     "toffee": 1.1,
