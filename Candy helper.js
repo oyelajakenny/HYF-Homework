@@ -6,7 +6,7 @@ const CANDY_PRICE = {
     "chewing-gum": 0.03
 };
 function addCandy(candyType, weight){
-    const pricePerGram = candyPrices[candyType];
+    const pricePerGram = CANDY_PRICE[candyType];
     if(pricePerGram){
         const totalPrice = pricePerGram * weight;
         boughtCandyPrices.push(totalPrice);
