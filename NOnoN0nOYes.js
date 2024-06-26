@@ -16,7 +16,7 @@ console.log(notes);
 //Get a note
 
 function getNote(id) {
-  if (id === undefined || typeof id !== "number") {
+  if (typeof id !== "number") {
     console.log("Id is not specified or not a number");
     return;
   }
