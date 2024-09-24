@@ -6,7 +6,7 @@ function calcAvgNum(num) {
 
 const args = process.argv.slice(2);
 
-if (args.length < 0) {
+if (args.length === 0) {
   console.log("Please provide at least one number");
 } else {
   const num = args.map((arg) => parseFloat(arg));
