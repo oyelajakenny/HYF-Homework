@@ -7,22 +7,43 @@ app.use(express.json());
 
 const documents = JSON.parse(fs.readFileSync("documents.json", "utf-8"));
 
+const filterDocuments = (query, fields) => {
+  if (query && fields) {
+    return {
+      error: "Cannot provide both query (q) and fields. Please use one.",
+    };
+  }
+
+  if (query) {
+    return documents.filter((doc) =>
+      Object.values(doc).some((value) =>
+        value.toString().toLowerCase().includes(query.toLowerCase())
+      )
+    );
+  }
+
+  if (fields) {
+    return documents.filter((doc) =>
+      Object.entries(fields).every(
+        ([key, value]) => doc[key] && doc[key].toString() === value.toString()
+      )
+    );
+  }
+
+  return documents;
+};
+
 app.get("/", (req, res) => {
   res.send("This is a search engine");
 });
 
 app.get("/search", (req, res) => {
   const query = req.query.q;
+  const result = filterDocuments(query, null);
 
-  if (!query) {
-    return res.status(200).json(documents);
+  if (result.error) {
+    return res.status(400).json(result);
   }
-
-  const result = documents.filter((doc) =>
-    Object.values(doc).some((value) =>
-      value.toString().toLowerCase().includes(query.toLowerCase())
-    )
-  );
 
   res.status(200).json(result);
 });
@@ -41,32 +62,13 @@ app.get("/documents/:id", (req, res) => {
 app.post("/search", (req, res) => {
   const query = req.query.q;
   const fields = req.body.fields;
+  const result = filterDocuments(query, fields);
 
-  if (query && fields) {
-    return res.status(400).json({
-      error: "Cannot provide both query (q) and fields. Please use one.",
-    });
+  if (result.error) {
+    return res.status(400).json(result);
   }
 
-  if (query) {
-    const result = documents.filter((doc) =>
-      Object.values(doc).some((value) =>
-        value.toString().toLowerCase().includes(query.toLowerCase())
-      )
-    );
-    return res.status(200).json(result);
-  }
-
-  if (fields) {
-    const result = documents.filter((doc) =>
-      Object.entries(fields).every(
-        ([key, value]) => doc[key] && doc[key].toString() === value.toString()
-      )
-    );
-    return res.status(200).json(result);
-  }
-
-  res.status(200).json(documents);
+  res.status(200).json(result);
 });
 
 app.listen(port, () => {
