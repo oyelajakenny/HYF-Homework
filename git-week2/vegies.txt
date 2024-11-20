@@ -1,5 +1,7 @@
 Garbage
 Water Leaf
-Carrot
+Carrots
 Tomatoes
 Broccoli
+Onions
+Cucumber
