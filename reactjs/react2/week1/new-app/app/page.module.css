@@ -1,0 +1,28 @@
+
+
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px  50px;
+}
+
+.NavLink  ul {
+  display: flex;
+  list-style-type: none;
+     color: black;
+    text-decoration: none;
+
+}
+
+.NavLink a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  
+
+}
+
+
+
